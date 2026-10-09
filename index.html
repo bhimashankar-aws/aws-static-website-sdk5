@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AWS Static Website | Boto3 Automation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">AWS Cloud Project</div>
+        <div class="status">● Live on Amazon S3</div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <p class="tag">AWS SDK + PYTHON BOTO3</p>
+            <h1>Automated Static<br>Website Hosting</h1>
+            <p class="description">
+                A static website hosted on Amazon S3 and automated
+                using Python Boto3.
+            </p>
+            <button type="button" onclick="showMessage()">
+                Test AWS Project
+            </button>
+        </section>
+
+        <section class="upload-section">
+            <h2>Upload File to AWS S3</h2>
+            <p>Select a file and upload it directly to Amazon S3.</p>
+
+            <input type="file" id="fileInput">
+
+            <button type="button" id="uploadButton" onclick="uploadFile()">
+                Upload File
+            </button>
+
+            <p id="uploadStatus" role="status" aria-live="polite"></p>
+        </section>
+
+        <section class="upload-section">
+            <h2>Manage Uploaded Files</h2>
+            <p>Enter the exact name of the file you want to delete from S3.</p>
+
+            <input
+                type="text"
+                id="deleteFileName"
+                placeholder="Example: document.pdf"
+                aria-label="File name to delete">
+
+            <button
+                type="button"
+                id="deleteButton"
+                onclick="deleteFile()">
+                Delete File
+            </button>
+
+            <p id="deleteStatus" role="status" aria-live="polite"></p>
+
+            <p class="description">
+                Website files such as index.html, style.css and script.js
+                are protected from deletion.
+            </p>
+        </section>
+
+        <section class="services">
+            <div class="card">
+                <h3>Amazon S3</h3>
+                <p>Hosts the static website files.</p>
+            </div>
+
+            <div class="card">
+                <h3>Python Boto3</h3>
+                <p>Automates website file uploads to S3.</p>
+            </div>
+
+            <div class="card">
+                <h3>HTML / CSS / JS</h3>
+                <p>Creates the interactive web interface.</p>
+            </div>
+
+            <div class="card">
+                <h3>AWS Lambda</h3>
+                <p>Processes upload and delete requests.</p>
+            </div>
+
+            <div class="card">
+                <h3>API Gateway</h3>
+                <p>Connects the website to AWS Lambda.</p>
+            </div>
+
+            <div class="card">
+                <h3>Amazon CloudWatch</h3>
+                <p>Records file activity and errors.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>AWS Static Website Project • Built with AWS & Python</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

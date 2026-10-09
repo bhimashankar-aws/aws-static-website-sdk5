@@ -1,0 +1,160 @@
+```css
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #eef6ff, #ffffff);
+    color: #1f2937;
+    min-height: 100vh;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 8%;
+    background: #ffffff;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    color: #232f3e;
+}
+
+.status {
+    color: #15803d;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    text-align: center;
+    padding: 90px 20px 60px;
+}
+
+.tag {
+    color: #ff9900;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 18px;
+}
+
+h1 {
+    font-size: 52px;
+    line-height: 1.15;
+    color: #232f3e;
+    margin-bottom: 25px;
+}
+
+.description {
+    max-width: 650px;
+    margin: auto;
+    font-size: 19px;
+    line-height: 1.7;
+    color: #64748b;
+}
+
+button {
+    margin-top: 30px;
+    padding: 15px 32px;
+    border: none;
+    border-radius: 8px;
+    background: #ff9900;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ec8b00;
+}
+
+/* Upload Section */
+.upload-section {
+    max-width: 650px;
+    margin: 10px auto 60px;
+    padding: 40px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.10);
+    text-align: center;
+}
+
+.upload-section h2 {
+    color: #232f3e;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.upload-section p {
+    color: #64748b;
+    margin-bottom: 22px;
+    line-height: 1.6;
+}
+
+.upload-section input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border: 2px dashed #cbd5e1;
+    border-radius: 8px;
+    background: #f8fafc;
+    cursor: pointer;
+}
+
+.upload-section button {
+    margin-top: 20px;
+}
+
+#uploadStatus {
+    margin-top: 18px;
+    font-weight: bold;
+}
+
+/* Service Cards */
+.services {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding: 20px 8% 70px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    width: 280px;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+.card h3 {
+    color: #232f3e;
+    margin-bottom: 12px;
+}
+
+.card p {
+    color: #64748b;
+    line-height: 1.6;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background: #232f3e;
+    color: #ffffff;
+    font-size: 14px;
+}
+```
