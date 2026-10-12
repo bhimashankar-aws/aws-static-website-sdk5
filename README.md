@@ -170,6 +170,20 @@ Add screenshots to this README using Markdown, for example:
 * Validate file types and file sizes.
 * Use CloudFront and HTTPS for website delivery.
 * Improve monitoring and error handling.
+## Project Screenshots
+
+### 1. AWS Website Dashboard
+
+![AWS Website Dashboard](Screenshot%202026-10-12%20144123.png)
+
+### 2. Website Upload Interface
+
+![Website Upload Interface](Screenshot%202026-10-12%20144215.png)
+
+### 3. AWS Project Testing
+
+![AWS Project Testing](Screenshot%202026-10-12%20144234.png)
+
 
 ## Author
 
